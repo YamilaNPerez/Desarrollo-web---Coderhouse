@@ -1,0 +1,428 @@
+/*Font*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+                                                        /*HOME*/
+/*header*/
+header{
+    background-color: #46A1AC;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+header>img{
+    width: 80px;
+}
+nav{
+    width: 50%;
+}
+header ul{
+    list-style: none;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0%;
+    font-size: 2.0rem;
+
+    
+}
+header a{
+    color: white;
+    text-decoration: none;
+
+}
+/*main index*/
+
+/*banner*/
+body{
+    background-color: #A1C2AD;
+}
+.banner{
+    background-image: url(../medios/background.png);
+
+    color: white;
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+    padding: 230px 0px;
+    
+}
+.banner h2{
+    font-weight: bold;
+    margin-left: 80px;
+    font-size: 4.8rem;
+    margin-right: 750px;
+}
+.banner h1{
+    font-weight:bolder;
+    margin-left: 80px;
+    font-size: 6.4rem;
+}
+
+.visitar{
+    background-color: white;
+    color: #6C6C6C;
+    width: 271px;
+    height: 60px;
+    border-radius: 53px;
+    border: none;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-left: 80px;
+}
+.detalles{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: baseline
+}
+
+/*carrucel*/
+.imgcarr{
+    margin-top: 75px;
+}
+.textcarr{
+    color: #464B45;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 75px;
+    font-size: 2.5rem;
+}
+
+/*pinturas home*/
+/*sunflower*/
+
+.sunflower{
+    margin-top: 70px;
+}
+.sunflower h3{
+    color: #464B45;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    margin-left: 80px;
+}
+
+.img-text-sunf p{
+    color: #464B45;
+    font-weight: medium;
+    font-size: 2.0rem;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.img-text-sunf img{
+    width: 500px;
+}
+
+.img-text-sunf{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+/*chambre*/
+
+.chambre{
+    margin-top: 70px;
+}
+.chambre h3{
+    color: #464B45;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    margin-right: 80px;
+    text-align: right;
+}
+.img-text-chamb p{
+    color: #464B45;
+    font-weight: medium;
+    font-size: 2.0rem;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.img-text-chamb img{
+    width: 500px;
+}
+.img-text-chamb{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 80px;
+    margin-top: 20px;
+}
+
+/*chambre*/
+
+.almond{
+    margin-top: 70px;
+}
+
+.almond h3{
+    color: #464B45;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    margin-left: 80px;
+}
+
+.img-text-alm p{
+    color: #464B45;
+    font-weight: medium;
+    font-size: 2.0rem;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.img-text-alm img{
+    width: 500px;
+}
+
+.img-text-alm{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+/*redirecion tickets*/
+
+.redir{
+    color: #464B45;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-left: 550px;
+    margin-right: 550px;
+    margin-top: 140px;
+    text-align: center;
+}
+/*redirecion boton tickets*/
+.botom{
+    background-color: #328D95;
+    color: white;
+    height: 70px;
+    width: 250px;
+    border-radius: 53px;
+    border: none;
+    font-size: 3.0rem;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 180px;
+}
+
+footer{
+    background-color: #9A9174;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+footer p{
+    font-weight: bold;
+    color: white;
+    font-size: 2.0rem;
+    margin-left: 80px;
+}
+footer img{
+    width: 60px;
+    margin-left: 80px;
+
+}
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content:end;
+    margin-right: 80px;
+}
+
+                                                        /*QUE HAY */
+/*Pinturas dibujos y letras*/
+.pint-dib-let h2{
+    color: white;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    margin-top: 50px;
+}
+.pint-dib-let p{
+    color: white;
+    font-weight: medium;
+    font-size: 2.0rem;
+    margin-top: 20px;
+
+}
+
+.pinturas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+.museo, .museo2, .museo3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 230px;
+}
+.pint-dib-let{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+/*Inspirando al mundo */
+
+.inspirando h2{
+    color: white;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    margin-top: 50px;
+}
+.inspirando p{
+    color: white;
+    font-weight: medium;
+    font-size: 2.0rem;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+.inspirando img{
+    height: 230px;
+}
+.text-img-insp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.inspirando{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+/*Sobre el museo*/
+
+.sobre h2{
+    color: white;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    margin-top: 50px;
+}
+.sobre p{
+    color: white;
+    font-weight: medium;
+    font-size: 2.0rem;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+.museoubi img{
+    height: 380px;
+}
+.museoubi iframe{
+    height: 380px;
+    width: 578.25px;
+}
+.museoubi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sobre{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+/*Redirección a galería*/
+
+.redirgaleria{
+    color: white;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 140px;
+    text-align: center;
+}
+
+.botong{
+    background-color: #F5D60F;
+    color: #464B45;
+    height: 70px;
+    width: 250px;
+    border-radius: 53px;
+    border: none;
+    font-size: 3.0rem;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 180px;
+}
+
+                                                        /*TICKETS*/
+.backg{
+    background-image: url(../medios/background-ticket.png);
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+    padding: 150px 0px;
+    color:white;
+    font-weight: bold;
+    font-size: 3.0rem;
+}
+.backg img{
+    width: 106px;
+    margin-left: 225px;
+    margin-bottom: 30px;
+}
+.backg h1{
+    margin-left: 66px;
+    margin-right: 800px;
+}
+
+                                                        /*GALERÍA*/
+.tit-desc h2{
+    color: white;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    margin-top: 50px;
+}
+.tit-desc p{
+    color: white;
+    font-weight: medium;
+    font-size: 2.0rem;
+    margin-top: 20px;
+}
+.tit-desc{
+    margin-left: 80px;
+}
+.pinturas-gal img{
+    height: 220px;
+}
+.pinturas-gal{
+    display: grid;
+    grid-template-columns: repeat(3, 370px) ;
+    grid-template-rows: repeat(4, 220px);
+    row-gap: 45px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
