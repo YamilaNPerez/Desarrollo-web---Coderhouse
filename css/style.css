@@ -102,6 +102,12 @@ body{
 /*carrucel*/
 .imgcarr{
     margin-top: 75px;
+    display: flex;
+    flex-direction: row;
+    height: 120px;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: space-around;
 }
 .textcarr{
     color: #464B45;
@@ -376,24 +382,65 @@ footer img{
 }
 
                                                         /*TICKETS*/
-.backg{
+
+.contenido{
     background-image: url(../medios/background-ticket.png);
     background-size: cover;
     background-position: center;
-    text-align: left;
-    padding: 150px 0px;
-    color:white;
-    font-weight: bold;
-    font-size: 3.0rem;
 }
 .backg img{
     width: 106px;
-    margin-left: 225px;
     margin-bottom: 30px;
 }
 .backg h1{
-    margin-left: 66px;
-    margin-right: 800px;
+    text-align: left;
+    color:white;
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+.backg{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px 80px 80px 0px;
+}
+label{
+    font-size: 2.0rem;
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+input , textarea{
+    padding: 10px 5px;
+    font-size: 1.5rem;
+    color: #464B45;
+    border-radius: 10px;
+    
+}
+:focus{
+    outline: 1px solid #F5D60F;
+}
+.btn{
+    background-color: #F5D60F;
+    width: 200px;
+    border-radius: 53px;
+    border: none;
+    font-size: 2.0rem;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-self: center;
+}
+.contenido{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
 }
 
                                                         /*GALERÍA*/
