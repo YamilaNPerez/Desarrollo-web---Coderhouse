@@ -426,7 +426,42 @@ footer img{
     margin-bottom: 100px;
     justify-content: space-between;
 }
+                                          /*VINCENT VAN GOGH*/
+.vangogh img{
+    height: 200px;
+}
+.vangogh h2{
+    color: #464B45;
+    font-weight: bold;
+    font-size: 3.0rem;
+    margin-bottom: 20px;
+}
+.vangogh h3{
+    color: #464B45;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.vangogh{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px 80px;
+}
+.titulosvvg{
+    margin-left: 40px;
+}
+.textovvg p{
+    color: #464B45;
+    font-weight: medium;
+    font-size: 2.0rem;
+    margin-top: 15px;
 
+}
+.textovvg{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 100px;
+}
                                         /*main index*/
 
 @media screen and (max-width: 500px) {
