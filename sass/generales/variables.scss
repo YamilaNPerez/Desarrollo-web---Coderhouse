@@ -1,0 +1,25 @@
+
+$celeste: #46A1AC;
+$coscuro:#328D95;
+$verde: #A1C2AD;
+$voscuro: #464B45;
+$naranja: #C48E44;
+$amarillo: #F5D60F;
+$ladrillo: #8E4D39;
+$beige: #D3C5B4;
+$blanco: white;
+$footerc: #9A9174;
+
+@mixin flex-al($direccion, $justify, $align){
+    display: flex;
+    flex-direction: $direccion;
+    justify-content: $justify;
+    align-items: $align;
+}
+@mixin flex ($direccion, $justify){
+    display: flex;
+    flex-direction: $direccion;
+    justify-content: $justify;
+}
+
+

@@ -1,0 +1,808 @@
+@charset "UTF-8";
+/*Estilos generales*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.navindex, .bodyvvg .headervvg, .bodygaleria .headergaleria, .bodytickets .headertickets, .bodyquehay .headerquehay {
+  background-color: #46A1AC;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.navindex img, .bodyvvg .headervvg img, .bodygaleria .headergaleria img, .bodytickets .headertickets img, .bodyquehay .headerquehay img {
+  width: 80px;
+}
+.navindex nav, .bodyvvg .headervvg nav, .bodygaleria .headergaleria nav, .bodytickets .headertickets nav, .bodyquehay .headerquehay nav {
+  width: 50%;
+}
+.navindex nav ul, .bodyvvg .headervvg nav ul, .bodygaleria .headergaleria nav ul, .bodytickets .headertickets nav ul, .bodyquehay .headerquehay nav ul {
+  list-style: none;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0%;
+  font-size: 2rem;
+}
+.navindex nav ul a, .bodyvvg .headervvg nav ul a, .bodygaleria .headergaleria nav ul a, .bodytickets .headertickets nav ul a, .bodyquehay .headerquehay nav ul a {
+  color: white;
+  text-decoration: none;
+}
+
+/*banner*/
+body {
+  background-color: #A1C2AD;
+  /*carrucel*/
+  /*pinturas home*/
+  /*sunflower*/
+  /*chambre*/
+  /*almond*/
+  /*redirecion tickets*/
+  /*footer*/
+}
+body .banner {
+  background-image: url(../medios/background.png);
+  color: white;
+  background-size: cover;
+  background-position: center;
+  text-align: left;
+  padding: 230px 0px;
+}
+body .banner h2 {
+  font-weight: bold;
+  margin-left: 80px;
+  font-size: 4.8rem;
+  margin-right: 750px;
+}
+body .banner h1 {
+  font-weight: bolder;
+  margin-left: 80px;
+  font-size: 6.4rem;
+}
+body .banner .botones {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: baseline;
+}
+body .banner .botones .visitar {
+  background-color: white;
+  color: #6C6C6C;
+  width: 271px;
+  height: 60px;
+  border-radius: 53px;
+  border: none;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 60px;
+  margin-left: 80px;
+}
+body .banner .botones .detalles {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-left: 30px;
+}
+body .imgcarr {
+  margin-top: 75px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 120px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+body .textcarr {
+  color: #464B45;
+  text-align: center;
+  font-weight: bolder;
+  margin-top: 75px;
+  font-size: 2.5rem;
+}
+body .sunflower {
+  margin-top: 70px;
+}
+body .sunflower h3 {
+  color: #464B45;
+  font-weight: bolder;
+  font-size: 2.5rem;
+  margin-left: 80px;
+}
+body .sunflower .img-text-sunf {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+body .sunflower .img-text-sunf p {
+  color: #464B45;
+  font-weight: medium;
+  font-size: 2rem;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+body .sunflower .img-text-sunf img {
+  width: 500px;
+}
+body .chambre {
+  margin-top: 70px;
+}
+body .chambre h3 {
+  color: #464B45;
+  font-weight: bolder;
+  font-size: 2.5rem;
+  margin-right: 80px;
+  text-align: right;
+}
+body .chambre .img-text-chamb {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 80px;
+  margin-top: 20px;
+}
+body .chambre .img-text-chamb p {
+  color: #464B45;
+  font-weight: medium;
+  font-size: 2rem;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+body .chambre .img-text-chamb img {
+  width: 500px;
+}
+body .almond {
+  margin-top: 70px;
+}
+body .almond h3 {
+  color: #464B45;
+  font-weight: bolder;
+  font-size: 2.5rem;
+  margin-left: 80px;
+}
+body .almond .img-text-alm {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+body .almond .img-text-alm img {
+  width: 500px;
+}
+body .almond .img-text-alm p {
+  color: #464B45;
+  font-weight: medium;
+  font-size: 2rem;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+body .redir {
+  color: #464B45;
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-left: 550px;
+  margin-right: 550px;
+  margin-top: 140px;
+  text-align: center;
+}
+body .redir .botom {
+  background-color: #328D95;
+  color: white;
+  height: 70px;
+  width: 250px;
+  border-radius: 53px;
+  border: none;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 25px;
+  margin-bottom: 180px;
+}
+body footer {
+  background-color: #9A9174;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+}
+body footer p {
+  font-weight: bold;
+  color: white;
+  font-size: 2rem;
+  margin-left: 80px;
+}
+body footer .redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin-right: 80px;
+}
+body footer .redes img {
+  width: 60px;
+  margin-left: 80px;
+}
+
+.bodyquehay {
+  background-color: #C48E44;
+  /*Pinturas dibujos y letras*/
+  /*Inspirando al mundo */
+  /*Sobre el museo*/
+  /*Redirección a galería*/
+}
+.bodyquehay .headerquehay {
+  background-color: #C48E44;
+}
+.bodyquehay .pint-dib-let {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.bodyquehay .pint-dib-let h2 {
+  color: white;
+  font-weight: bolder;
+  font-size: 2.5rem;
+  margin-top: 50px;
+}
+.bodyquehay .pint-dib-let p {
+  color: white;
+  font-weight: medium;
+  font-size: 2rem;
+  margin-top: 20px;
+}
+.bodyquehay .pint-dib-let .pinturas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 45px;
+}
+.bodyquehay .pint-dib-let .pinturas .museo, .bodyquehay .pint-dib-let .pinturas .museo2, .bodyquehay .pint-dib-let .pinturas .museo3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 230px;
+}
+.bodyquehay .inspirando {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.bodyquehay .inspirando h2 {
+  color: white;
+  font-weight: bolder;
+  font-size: 2.5rem;
+  margin-top: 50px;
+}
+.bodyquehay .inspirando .text-img-insp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.bodyquehay .inspirando .text-img-insp p {
+  color: white;
+  font-weight: medium;
+  font-size: 2rem;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+.bodyquehay .inspirando .text-img-insp img {
+  height: 230px;
+}
+.bodyquehay .sobre {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.bodyquehay .sobre h2 {
+  color: white;
+  font-weight: bolder;
+  font-size: 2.5rem;
+  margin-top: 50px;
+}
+.bodyquehay .sobre p {
+  color: white;
+  font-weight: medium;
+  font-size: 2rem;
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+.bodyquehay .sobre .museoubi {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.bodyquehay .sobre .museoubi img {
+  height: 380px;
+}
+.bodyquehay .sobre .museoubi iframe {
+  height: 380px;
+  width: 578.25px;
+}
+.bodyquehay .redirgaleria {
+  color: white;
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 140px;
+  text-align: center;
+}
+.bodyquehay .botong {
+  background-color: #F5D60F;
+  color: #464B45;
+  height: 70px;
+  width: 250px;
+  border-radius: 53px;
+  border: none;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 25px;
+  margin-bottom: 180px;
+}
+
+.bodytickets .headertickets {
+  background-color: transparent;
+}
+.bodytickets .contenido {
+  background-image: url(../medios/background-ticket.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.bodytickets .contenido .backg {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+}
+.bodytickets .contenido .backg img {
+  width: 106px;
+  margin-bottom: 30px;
+}
+.bodytickets .contenido .backg h1 {
+  text-align: left;
+  color: white;
+  font-weight: bold;
+  font-size: 3.5rem;
+}
+.bodytickets form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 80px 80px 80px 0px;
+}
+.bodytickets form label {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.bodytickets form input, .bodytickets form textarea {
+  padding: 10px 5px;
+  font-size: 1.5rem;
+  color: #464B45;
+  border-radius: 10px;
+}
+.bodytickets form :focus {
+  outline: 1px solid #F5D60F;
+}
+.bodytickets form .btn {
+  background-color: #F5D60F;
+  width: 200px;
+  border-radius: 53px;
+  border: none;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  align-self: center;
+}
+
+.bodygaleria {
+  background-color: #8E4D39;
+}
+.bodygaleria .headergaleria {
+  background-color: #8E4D39;
+}
+.bodygaleria .tit-desc {
+  margin-left: 80px;
+}
+.bodygaleria .tit-desc h2 {
+  color: white;
+  font-weight: bolder;
+  font-size: 2.5rem;
+  margin-top: 50px;
+}
+.bodygaleria .tit-desc p {
+  color: white;
+  font-weight: medium;
+  font-size: 2rem;
+  margin-top: 20px;
+}
+.bodygaleria .pinturas-gal {
+  display: grid;
+  grid-template-columns: repeat(3, 370px);
+  grid-template-rows: repeat(4, 220px);
+  row-gap: 45px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 40px;
+  margin-bottom: 100px;
+  justify-content: space-between;
+}
+.bodygaleria .pinturas-gal img {
+  height: 220px;
+}
+
+.bodyvvg {
+  background-color: #D3C5B4;
+}
+.bodyvvg .headervvg {
+  background-color: #D3C5B4;
+}
+.bodyvvg .vangogh {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 50px 80px;
+}
+.bodyvvg .vangogh img {
+  height: 200px;
+}
+.bodyvvg .vangogh h2 {
+  color: #464B45;
+  font-weight: bold;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+.bodyvvg .vangogh h3 {
+  color: #464B45;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+.bodyvvg .vangogh .titulosvvg {
+  margin-left: 40px;
+}
+.bodyvvg .vangogh .titulosvvg p {
+  color: #464B45;
+  font-weight: medium;
+  font-size: 2rem;
+  margin-top: 15px;
+}
+.bodyvvg .textovvg {
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 100px;
+}
+.bodyvvg .textovvg p {
+  color: #464B45;
+  font-weight: medium;
+  font-size: 2rem;
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 500px) {
+  .navindex, .bodyquehay .headerquehay, .bodytickets .headertickets, .bodygaleria .headergaleria, .bodyvvg .headervvg {
+    flex-direction: column;
+    padding: 10px 0px;
+    width: 100%;
+  }
+  .navindex nav, .bodyquehay .headerquehay nav, .bodytickets .headertickets nav, .bodygaleria .headergaleria nav, .bodyvvg .headervvg nav {
+    width: 100%;
+  }
+  .navindex nav ul, .bodyquehay .headerquehay nav ul, .bodytickets .headertickets nav ul, .bodygaleria .headergaleria nav ul, .bodyvvg .headervvg nav ul {
+    font-size: 1rem;
+    justify-content: space-around;
+    margin-top: 5px;
+  }
+  .navindex .dibujo, .bodyquehay .headerquehay .dibujo, .bodytickets .headertickets .dibujo, .bodygaleria .headergaleria .dibujo, .bodyvvg .headervvg .dibujo {
+    display: none;
+  }
+  .mainindex {
+    /*chambre*/
+    /*almond*/
+  }
+  .mainindex .banner {
+    padding: 50px 0px;
+  }
+  .mainindex .banner h2 {
+    margin-left: 80px;
+    font-size: 2rem;
+    margin-right: 80px;
+    text-align: center;
+  }
+  .mainindex .banner h1 {
+    font-size: 3.5rem;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .mainindex .banner .botones {
+    flex-direction: column;
+    align-items: center;
+  }
+  .mainindex .banner .botones .visitar {
+    width: 165px;
+    height: 40px;
+    font-size: 2rem;
+    margin-top: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .mainindex .banner .botones .detalles {
+    font-size: 2rem;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+  .mainindex .imgcarr {
+    display: none;
+  }
+  .mainindex .textcarr {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .mainindex .sunflower h3 {
+    font-size: 2rem;
+    margin-left: 0px;
+    text-align: center;
+    margin-top: -30px;
+  }
+  .mainindex .sunflower .img-text-sunf {
+    flex-direction: column;
+    margin-left: 0px;
+    margin-top: 5px;
+  }
+  .mainindex .sunflower .img-text-sunf img {
+    width: 225px;
+  }
+  .mainindex .sunflower .img-text-sunf p {
+    font-size: 1rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .mainindex .chambre {
+    margin-top: 30px;
+  }
+  .mainindex .chambre h3 {
+    font-size: 2rem;
+    margin-right: 0px;
+    text-align: center;
+    margin-top: 5px;
+  }
+  .mainindex .chambre .img-text-chamb {
+    flex-direction: column-reverse;
+    margin-right: 0px;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+  }
+  .mainindex .chambre .img-text-chamb p {
+    font-size: 1rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .mainindex .chambre .img-text-chamb img {
+    width: 225px;
+  }
+  .mainindex .almond {
+    margin-top: 30px;
+  }
+  .mainindex .almond h3 {
+    font-size: 2rem;
+    margin-left: 0px;
+    text-align: center;
+  }
+  .mainindex .almond .img-text-alm {
+    flex-direction: column;
+    margin-left: 0px;
+    margin-top: 5px;
+  }
+  .mainindex .almond .img-text-alm img {
+    width: 225px;
+  }
+  .mainindex .almond .img-text-alm p {
+    font-size: 1rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .mainindex .redir {
+    font-size: 1.5rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 75px;
+  }
+  .mainindex .redir .botom {
+    width: 165px;
+    height: 40px;
+    font-size: 2rem;
+    margin-top: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 80px;
+  }
+  .footergen {
+    flex-direction: column;
+  }
+  .footergen p {
+    margin-left: 0px;
+  }
+  .footergen .redes {
+    justify-content: center;
+    margin-right: 0px;
+    align-items: center;
+  }
+  .footergen .redes img {
+    margin-left: 0px;
+    width: 40px;
+  }
+  .mainquehay {
+    /*Inspirando al mundo */
+  }
+  .mainquehay .pint-dib-let {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .mainquehay .pint-dib-let h2 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+  .mainquehay .pint-dib-let p {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  .mainquehay .pint-dib-let .pinturas {
+    margin-top: 15px;
+  }
+  .mainquehay .pint-dib-let .pinturas .museo, .mainquehay .pint-dib-let .pinturas .museo2, .mainquehay .pint-dib-let .pinturas .museo3 {
+    height: 70px;
+  }
+  .mainquehay .inspirando {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .mainquehay .inspirando h2 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+  .mainquehay .inspirando .text-img-insp {
+    align-items: center;
+  }
+  .mainquehay .inspirando .text-img-insp p {
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-right: 15px;
+  }
+  .mainquehay .inspirando .text-img-insp img {
+    height: 70px;
+  }
+  .mainquehay .sobre {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .mainquehay .sobre h2 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+  .mainquehay .sobre p {
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  .mainquehay .sobre .museoubi img {
+    height: 120px;
+  }
+  .mainquehay .sobre .museoubi iframe {
+    height: 120px;
+    width: 183px;
+  }
+  .mainquehay .redirgaleria {
+    font-size: 1.5rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 75px;
+  }
+  .mainquehay .redirgaleria .botong {
+    width: 165px;
+    height: 40px;
+    font-size: 2rem;
+    margin-top: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 80px;
+  }
+  .mainticket .contenido {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .mainticket .contenido .backg {
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .mainticket .contenido .backg img {
+    width: 60px;
+    margin-bottom: 15px;
+  }
+  .mainticket .contenido .backg h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .mainticket .contenido form {
+    padding: 30px;
+  }
+  /*galeria*/
+  .maingaleria .tit-desc {
+    margin-left: 15px;
+  }
+  .maingaleria .tit-desc h2 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+  .maingaleria .tit-desc p {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  .maingaleria .pinturas-gal {
+    grid-template-columns: repeat(2, 170px);
+    grid-template-rows: repeat(5, 100px);
+    margin-left: 15px;
+    margin-right: 15px;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+    column-gap: 30px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+  }
+  .maingaleria .pinturas-gal img {
+    height: 100px;
+  }
+  /*vvg*/
+  .mainvvg .vangogh {
+    padding: 20px 15px;
+  }
+  .mainvvg .vangogh img {
+    height: 100px;
+  }
+  .mainvvg .vangogh .titulosvvg {
+    margin-left: 15px;
+  }
+  .mainvvg .vangogh .titulosvvg h2 {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+  }
+  .mainvvg .textovvg {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+  }
+  .mainvvg .textovvg p {
+    font-size: 1rem;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

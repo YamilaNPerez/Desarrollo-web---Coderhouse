@@ -1,0 +1,27 @@
+@import "generales/variables.scss";
+
+/*Estilos generales*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+@import "pages/index.scss";
+@import "pages/quehay.scss";
+@import "pages/tickets.scss";
+@import "pages/galeria.scss";
+@import "pages/vangogh.scss";
+
+
+@import "generales/mediaq.scss";

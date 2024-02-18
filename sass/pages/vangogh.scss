@@ -1,0 +1,49 @@
+.bodyvvg{
+    background-color: $beige;
+    .headervvg{
+        @extend .navindex;
+        background-color: $beige;
+    }
+    .vangogh{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 50px 80px;
+        img{
+            height: 200px;
+        }
+        h2{
+            color: #464B45;
+            font-weight: bold;
+            font-size: 3.0rem;
+            margin-bottom: 20px;
+        }
+        h3{
+            color: #464B45;
+            font-weight: bolder;
+            font-size: 1.5rem;
+        }
+        .titulosvvg{
+            margin-left: 40px;
+            p{
+                color: #464B45;
+                font-weight: medium;
+                font-size: 2.0rem;
+                margin-top: 15px;
+            
+            }
+        }
+    }
+    .textovvg{
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-bottom: 100px;
+        p{
+            color: #464B45;
+            font-weight: medium;
+            font-size: 2.0rem;
+            margin-top: 15px;
+        
+        }
+    }
+}

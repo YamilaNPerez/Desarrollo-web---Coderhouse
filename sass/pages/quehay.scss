@@ -1,0 +1,109 @@
+.bodyquehay{
+    background-color: $naranja;
+    .headerquehay{
+        @extend .navindex;
+        background-color: $naranja;
+    }
+    /*Pinturas dibujos y letras*/
+    .pint-dib-let{
+        margin-left: 80px;
+        margin-right: 80px;
+        h2{
+            color: $blanco;
+            font-weight: bolder;
+            font-size: 2.5rem;
+            margin-top: 50px;
+        }
+        p{
+            color: $blanco;
+            font-weight: medium;
+            font-size: 2.0rem;
+            margin-top: 20px;
+        }
+        .pinturas{
+            @include flex(row, space-between);
+            margin-top: 45px;
+            .museo, .museo2, .museo3{
+                @include flex(row, space-between);
+                height: 230px;
+            }
+        }
+    }
+    /*Inspirando al mundo */
+    .inspirando{
+        margin-left: 80px;
+        margin-right: 80px;
+        h2{
+            color: $blanco;
+            font-weight: bolder;
+            font-size: 2.5rem;
+            margin-top: 50px;
+        }
+        .text-img-insp{
+            @include flex (row, space-between);
+            p{
+                color: $blanco;
+                font-weight: medium;
+                font-size: 2.0rem;
+                margin-top: 20px;
+                margin-right: 50px;
+            }
+            img{
+                height: 230px;
+            }
+        }
+    }
+    /*Sobre el museo*/
+    .sobre{
+        margin-left: 80px;
+        margin-right: 80px;
+        h2{
+            color: white;
+            font-weight: bolder;
+            font-size: 2.5rem;
+            margin-top: 50px;
+        }
+        p{
+            color: white;
+            font-weight: medium;
+            font-size: 2.0rem;
+            margin-top: 20px;
+            margin-bottom: 35px;
+        }
+        .museoubi{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            img{
+                height: 380px;
+            }
+            iframe{
+                height: 380px;
+                width: 578.25px;
+            }
+        }
+    }
+    /*Redirección a galería*/
+    .redirgaleria{
+        color: white;
+        font-weight: bold;
+        font-size: 2.5rem;
+        margin-left: 250px;
+        margin-right: 250px;
+        margin-top: 140px;
+        text-align: center;
+    }
+    .botong{
+        background-color: $amarillo;
+        color: $voscuro;
+        height: 70px;
+        width: 250px;
+        border-radius: 53px;
+        border: none;
+        font-size: 3.0rem;
+        font-weight: bold;
+        margin-top: 25px;
+        margin-bottom: 180px;
+    }
+}
+

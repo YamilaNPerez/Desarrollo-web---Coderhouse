@@ -1,0 +1,319 @@
+@media screen and (max-width: 500px){
+    .navindex{
+        flex-direction: column;
+        padding: 10px 0px;
+        width: 100%;
+        nav{
+            width: 100%;
+            ul{
+                font-size: 1.0rem;
+                justify-content: space-around;
+                margin-top: 5px;
+            }
+        }
+        .dibujo{
+            display: none;
+        }
+    }
+    .mainindex{
+        .banner{
+            padding: 50px 0px;
+            h2{
+                margin-left: 80px;
+                font-size: 2.0rem;
+                margin-right: 80px;
+                text-align: center;
+            }
+            h1{
+                font-size: 3.5rem;
+                text-align: center;
+                margin-left: 50px;
+                margin-right: 50px;
+            }
+            .botones{
+                flex-direction: column;
+                align-items: center;
+                .visitar{
+                    width: 165px;
+                    height: 40px;
+                    font-size: 2.0rem;
+                    margin-top: 15px;
+                    margin-left: 0px;
+                    margin-right: 0px;
+                }
+                .detalles{
+                    font-size: 2.0rem;
+                    margin-right: 0px;
+                    margin-left: 0px;
+                    margin-top: 15px;
+                }
+            }
+    
+        }
+        .imgcarr{
+            display: none;
+        }
+        .textcarr{
+            margin-top: 20px;
+            font-size: 1.5rem;
+            margin-left:10px ;
+            margin-right: 10px;
+        }
+        .sunflower{
+            h3{
+                font-size: 2.0rem;
+                margin-left: 0px;
+                text-align: center;
+                margin-top: -30px
+            }
+            .img-text-sunf{
+                flex-direction: column;
+                margin-left: 0px;
+                margin-top: 5px;
+                img{
+                    width: 225px;
+                    
+                }
+                p{
+                    font-size: 1.0rem;
+                    margin-left: 20px;
+                    margin-right: 20px;
+                    text-align: center;
+                    margin-top: 10px;
+                }
+            }
+        }/*chambre*/
+        .chambre{
+            margin-top: 30px;
+            h3{
+                font-size: 2.0rem;
+                margin-right: 0px;
+                text-align: center;
+                margin-top: 5px
+            }
+            .img-text-chamb{
+                flex-direction: column-reverse;
+                margin-right: 0px;
+                margin-top: 5px;
+                justify-content: center;
+                align-items: center;
+                p{
+                    font-size: 1.0rem;
+                    margin-left: 20px;
+                    margin-right: 20px;
+                    text-align: center;
+                    margin-top: 10px;
+                }
+                img{
+                    width: 225px;
+                }
+            }
+        }/*almond*/
+        .almond{
+            margin-top: 30px;
+            h3{
+                font-size: 2.0rem;
+                margin-left: 0px;
+                text-align: center;
+            }
+            .img-text-alm{
+                flex-direction: column;
+                margin-left: 0px;
+                margin-top: 5px;
+                img{
+                    width: 225px;
+                }
+                p{
+                    font-size: 1.0rem;
+                    margin-left: 20px;
+                    margin-right: 20px;
+                    text-align: center;
+                    margin-top: 10px;
+                }
+            }
+        }
+        .redir{
+            font-size: 1.5rem;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 75px;
+            .botom{
+                width: 165px;
+                height: 40px;
+                font-size: 2.0rem;
+                margin-top: 15px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-bottom: 80px;
+            }
+        }
+    }
+    .footergen{
+        flex-direction: column;
+        p{
+            margin-left: 0px;
+        }
+        .redes{
+            justify-content:center;
+            margin-right: 0px;
+            align-items: center;
+            img{
+                margin-left: 0px;
+                width: 40px;
+            }
+        }
+    }
+    .mainquehay{
+        .pint-dib-let{
+            margin-left: 15px;
+            margin-right: 15px;
+            h2{
+                font-size: 1.5rem;
+                margin-top: 20px;
+            }
+            p{
+                font-size: 1.0rem;
+                margin-top: 10px;
+            }
+            .pinturas{
+                margin-top: 15px;
+                .museo, .museo2, .museo3{
+                    height: 70px;
+                }
+            }
+        }/*Inspirando al mundo */
+        .inspirando{
+            margin-left: 15px;
+            margin-right: 15px;
+            h2{
+                font-size: 1.5rem;
+                margin-top: 20px;
+            }
+            .text-img-insp{
+                align-items: center;
+                p{
+                    font-size: 1.0rem;
+                    margin-top: 10px;
+                    margin-right: 15px
+                }
+                img{
+                    height: 70px;
+                }
+            }
+        }
+        .sobre{
+            margin-left: 15px;
+            margin-right: 15px;
+            h2{
+                font-size: 1.5rem;
+                margin-top: 20px;
+            }
+            p{
+                font-size: 1.0rem;
+                margin-top: 10px;
+                margin-bottom: 15px;
+                margin-top: 15px;
+            }
+            .museoubi{
+                img{
+                    height: 120px;
+                }
+                iframe{
+                    height: 120px;
+                    width: 183px;
+                }
+            }
+        }
+        .redirgaleria{
+            font-size: 1.5rem;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 75px;
+            .botong{
+                width: 165px;
+                height: 40px;
+                font-size: 2.0rem;
+                margin-top: 15px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-bottom: 80px;
+            }
+        }
+
+    }
+    .mainticket{
+        .contenido{
+            flex-direction: column;
+            justify-content:center;
+            .backg{
+                justify-content: center;
+                align-items: center;
+                margin-top: 20px;
+                img{
+                    width: 60px;
+                    margin-bottom: 15px;
+                }
+                h1{
+                    font-size: 2.5rem;
+                    text-align: center;
+                }
+            }
+            form{
+                padding: 30px;
+            }
+        }
+    }            /*galeria*/
+    .maingaleria{
+        .tit-desc{
+            margin-left: 15px;
+            h2{
+                font-size: 1.5rem;
+                margin-top: 20px;
+            }
+            p{
+                font-size: 1.0rem;
+                margin-top: 10px;
+            }
+        }
+        .pinturas-gal{
+            grid-template-columns: repeat(2, 170px) ;
+            grid-template-rows: repeat(5, 100px);
+            margin-left: 15px;
+            margin-right: 15px;
+            justify-content: center;
+            align-items: center;
+            row-gap: 30px;
+            column-gap: 30px;
+            margin-top: 15px;
+            margin-bottom: 40px;
+            img{
+                height: 100px;
+            }
+    
+        }
+    }/*vvg*/
+    .mainvvg{
+        .vangogh{
+            padding: 20px 15px;
+            img{
+                height: 100px;
+            }
+            .titulosvvg{
+                margin-left: 15px;
+                h2{
+                    font-size: 2.5rem;
+                    margin-bottom: 5px;
+                }
+            }
+        }
+        .textovvg{
+            margin-left: 15px;
+            margin-right: 15px;
+            margin-bottom: 15px;
+            p{
+                font-size: 1.0rem;
+            }
+        }
+    }
+
+}

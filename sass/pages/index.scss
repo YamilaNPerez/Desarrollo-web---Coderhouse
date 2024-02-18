@@ -1,0 +1,207 @@
+.navindex{
+    background-color:$celeste;
+    @include flex-al(row, space-around, center);
+    img{
+        width: 80px;
+    }
+    nav{
+        width: 50%;
+        ul{
+            list-style: none;
+            font-weight: bold;
+            @include flex (row, space-between);
+            padding: 0%;
+            font-size: 2.0rem;
+            a{
+                color: $blanco;
+                text-decoration: none;
+            }
+        }
+    }
+}
+/*banner*/
+body{
+    background-color: $verde;
+    .banner{
+        background-image: url(../medios/background.png);
+    
+        color:$blanco;
+        background-size: cover;
+        background-position: center;
+        text-align: left;
+        padding: 230px 0px;
+        h2{
+            font-weight: bold;
+            margin-left: 80px;
+            font-size: 4.8rem;
+            margin-right: 750px;
+        }
+        h1{
+            font-weight:bolder;
+            margin-left: 80px;
+            font-size: 6.4rem;
+        }
+        .botones{
+            @include flex-al (row, start, baseline);
+            .visitar{
+                background-color: $blanco;
+                color: #6C6C6C;
+                width: 271px;
+                height: 60px;
+                border-radius: 53px;
+                border: none;
+                font-size: 2.5rem;
+                font-weight: bold;
+                margin-top: 60px;
+                margin-left: 80px;
+            }
+            .detalles{
+                color: white;
+                font-size: 2.5rem;
+                font-weight: bold;
+                margin-left: 30px;
+            }
+        }
+    }
+    /*carrucel*/
+    .imgcarr{
+        margin-top: 75px;
+        @include flex (row, space-around);
+        height: 120px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .textcarr{
+        color: $voscuro;
+        text-align: center;
+        font-weight: bolder;
+        margin-top: 75px;
+        font-size: 2.5rem;
+    }
+    /*pinturas home*/
+    /*sunflower*/
+    .sunflower{
+        margin-top: 70px;
+        h3{
+            color: $voscuro;
+            font-weight: bolder;
+            font-size: 2.5rem;
+            margin-left: 80px;
+        }
+        .img-text-sunf{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-left: 80px;
+            margin-top: 20px;
+            p{
+            color: $voscuro;
+            font-weight: medium;
+            font-size: 2.0rem;
+            margin-left: 80px;
+            margin-right: 80px;
+            }
+            img{
+                width: 500px;
+            }
+            
+        }
+    }
+    /*chambre*/
+    .chambre{
+        margin-top: 70px;
+        h3{
+            color: $voscuro;
+            font-weight: bolder;
+            font-size: 2.5rem;
+            margin-right: 80px;
+            text-align: right;
+        }
+        .img-text-chamb{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-right: 80px;
+            margin-top: 20px;
+            p{
+                color: $voscuro;
+                font-weight: medium;
+                font-size: 2.0rem;
+                margin-left: 80px;
+                margin-right: 80px;
+            }
+            img{
+                width: 500px;
+            }
+        }
+    }
+    /*almond*/
+    .almond{
+        margin-top: 70px;
+        h3{
+            color: $voscuro;
+            font-weight: bolder;
+            font-size: 2.5rem;
+            margin-left: 80px;
+        }
+        .img-text-alm{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-left: 80px;
+            margin-top: 20px;
+            img{
+                width: 500px;
+            }
+            p{
+                color: $voscuro;
+                font-weight: medium;
+                font-size: 2.0rem;
+                margin-left: 80px;
+                margin-right: 80px;
+            }
+        }
+    }
+    /*redirecion tickets*/
+    .redir{
+        color:$voscuro;
+        font-weight: bold;
+        font-size: 2.5rem;
+        margin-left: 550px;
+        margin-right: 550px;
+        margin-top: 140px;
+        text-align: center;
+        .botom{
+            background-color: $coscuro;
+            color: $blanco;
+            height: 70px;
+            width: 250px;
+            border-radius: 53px;
+            border: none;
+            font-size: 3.0rem;
+            font-weight: bold;
+            margin-top: 25px;
+            margin-bottom: 180px;
+        }
+    }
+    /*footer*/
+    footer{
+        background-color: $footerc;
+        @include flex-al(row, space-between, center);
+        padding: 10px 0px;
+        p{
+            font-weight: bold;
+            color: $blanco;
+            font-size: 2.0rem;
+            margin-left: 80px;
+        }
+        .redes{
+            @include flex (row, end);
+            margin-right: 80px;
+            img{
+                width: 60px;
+                margin-left: 80px;
+            }
+        }
+    }
+}

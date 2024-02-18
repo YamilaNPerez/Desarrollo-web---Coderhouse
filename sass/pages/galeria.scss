@@ -1,0 +1,36 @@
+.bodygaleria{
+    background-color: $ladrillo;
+    .headergaleria{
+        @extend .navindex;
+        background-color: $ladrillo;
+    }
+    .tit-desc{
+        margin-left: 80px;
+        h2{
+            color: $blanco;
+            font-weight: bolder;
+            font-size: 2.5rem;
+            margin-top: 50px;
+        }
+        p{
+            color: $blanco;
+            font-weight: medium;
+            font-size: 2.0rem;
+            margin-top: 20px;
+        }
+    }
+    .pinturas-gal{
+        display: grid;
+        grid-template-columns: repeat(3, 370px) ;
+        grid-template-rows: repeat(4, 220px);
+        row-gap: 45px;
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-top: 40px;
+        margin-bottom: 100px;
+        justify-content: space-between;
+        img{
+            height: 220px;
+        }
+    }
+}
