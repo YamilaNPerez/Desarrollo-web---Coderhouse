@@ -114,79 +114,77 @@ body .textcarr {
   margin-top: 75px;
   font-size: 2.5rem;
 }
-body .sunflower {
-  margin-top: 70px;
-}
-body .sunflower h3 {
-  color: #464B45;
-  font-weight: bolder;
-  font-size: 2.5rem;
-  margin-left: 80px;
-}
-body .sunflower .img-text-sunf {
+body .sunflowers {
   display: flex;
   flex-direction: row;
   align-items: center;
   margin-left: 80px;
-  margin-top: 20px;
+  margin-top: 100px;
 }
-body .sunflower .img-text-sunf p {
+body .sunflowers .img {
+  width: 500px;
+}
+body .sunflowers .sunftext h3 {
+  color: #464B45;
+  font-weight: lighter;
+  font-style: oblique;
+  font-size: 2.5rem;
+  margin-left: 80px;
+  margin-bottom: 40px;
+}
+body .sunflowers .sunftext p {
   color: #464B45;
   font-weight: medium;
   font-size: 2rem;
   margin-left: 80px;
   margin-right: 80px;
-}
-body .sunflower .img-text-sunf img {
-  width: 500px;
 }
 body .chambre {
   margin-top: 70px;
-}
-body .chambre h3 {
-  color: #464B45;
-  font-weight: bolder;
-  font-size: 2.5rem;
-  margin-right: 80px;
-  text-align: right;
-}
-body .chambre .img-text-chamb {
   display: flex;
   flex-direction: row;
   align-items: center;
   margin-right: 80px;
-  margin-top: 20px;
+  margin-top: 100px;
 }
-body .chambre .img-text-chamb p {
+body .chambre .chambtext h3 {
+  color: #464B45;
+  font-weight: lighter;
+  font-style: oblique;
+  font-size: 2.5rem;
+  margin-right: 80px;
+  text-align: right;
+  margin-bottom: 40px;
+}
+body .chambre .chambtext p {
   color: #464B45;
   font-weight: medium;
   font-size: 2rem;
   margin-left: 80px;
   margin-right: 80px;
 }
-body .chambre .img-text-chamb img {
+body .chambre img {
   width: 500px;
 }
 body .almond {
-  margin-top: 70px;
-}
-body .almond h3 {
-  color: #464B45;
-  font-weight: bolder;
-  font-size: 2.5rem;
-  margin-left: 80px;
-}
-body .almond .img-text-alm {
   display: flex;
   flex-direction: row;
   align-items: center;
   margin-left: 80px;
-  margin-top: 20px;
+  margin-top: 100px;
 }
-body .almond .img-text-alm img {
+body .almond img {
   width: 500px;
 }
-body .almond .img-text-alm p {
+body .almond .almtext h3 {
+  color: #464B45;
+  font-weight: lighter;
+  font-style: oblique;
+  font-size: 2.5rem;
+  margin-left: 80px;
+  margin-bottom: 40px;
+}
+body .almond .almtext p {
   color: #464B45;
   font-weight: medium;
   font-size: 2rem;

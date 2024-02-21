@@ -80,81 +80,86 @@ body{
     }
     /*pinturas home*/
     /*sunflower*/
-    .sunflower{
-        margin-top: 70px;
-        h3{
-            color: $voscuro;
-            font-weight: bolder;
-            font-size: 2.5rem;
-            margin-left: 80px;
+    .sunflowers{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 80px;
+        margin-top: 100px;
+        .img{
+            width: 500px;
         }
-        .img-text-sunf{
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            margin-left: 80px;
-            margin-top: 20px;
+        .sunftext{
+            h3{
+                color: #464B45;
+                font-weight: lighter;
+                font-style: oblique;
+                font-size: 2.5rem;
+                margin-left: 80px;
+                margin-bottom: 40px;
+            }
             p{
-            color: $voscuro;
-            font-weight: medium;
-            font-size: 2.0rem;
-            margin-left: 80px;
-            margin-right: 80px;
+                color: #464B45;
+                font-weight: medium;
+                font-size: 2.0rem;
+                margin-left: 80px;
+                margin-right: 80px;
+                
             }
-            img{
-                width: 500px;
-            }
-            
         }
+        
     }
     /*chambre*/
     .chambre{
         margin-top: 70px;
-        h3{
-            color: $voscuro;
-            font-weight: bolder;
-            font-size: 2.5rem;
-            margin-right: 80px;
-            text-align: right;
-        }
-        .img-text-chamb{
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            margin-right: 80px;
-            margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-right: 80px;;
+        margin-top: 100px;
+        .chambtext{
+            h3{
+                color: #464B45;
+                font-weight: lighter;
+                font-style: oblique;
+                font-size: 2.5rem;
+                margin-right: 80px;
+                text-align: right;
+                margin-bottom: 40px;
+            }
             p{
-                color: $voscuro;
+                color: #464B45;
                 font-weight: medium;
                 font-size: 2.0rem;
                 margin-left: 80px;
                 margin-right: 80px;
             }
-            img{
-                width: 500px;
-            }
+        }
+        img{
+            width: 500px;
         }
     }
     /*almond*/
     .almond{
-        margin-top: 70px;
-        h3{
-            color: $voscuro;
-            font-weight: bolder;
-            font-size: 2.5rem;
-            margin-left: 80px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 80px;
+        margin-top: 100px;
+        img{
+            width: 500px;
         }
-        .img-text-alm{
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            margin-left: 80px;
-            margin-top: 20px;
-            img{
-                width: 500px;
+        .almtext{
+            h3{
+                color: #464B45;
+                font-weight: lighter;
+                font-style: oblique;
+                font-size: 2.5rem;
+                margin-left: 80px;
+                margin-bottom: 40px;
             }
             p{
-                color: $voscuro;
+                color: #464B45;
                 font-weight: medium;
                 font-size: 2.0rem;
                 margin-left: 80px;
