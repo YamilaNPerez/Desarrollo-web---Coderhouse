@@ -153,7 +153,7 @@ body .chambre .chambtext h3 {
   font-style: oblique;
   font-size: 2.5rem;
   margin-right: 80px;
-  text-align: right;
+  text-align: center;
   margin-bottom: 40px;
 }
 body .chambre .chambtext p {
@@ -273,7 +273,7 @@ body footer .redes img {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 230px;
+  height: 220px;
 }
 .bodyquehay .inspirando {
   margin-left: 80px;
@@ -556,75 +556,69 @@ body footer .redes img {
     margin-left: 10px;
     margin-right: 10px;
   }
-  .mainindex .sunflower h3 {
-    font-size: 2rem;
-    margin-left: 0px;
-    text-align: center;
-    margin-top: -30px;
+  .mainindex .sunflowers {
+    margin-left: 15px;
+    margin-top: 50px;
   }
-  .mainindex .sunflower .img-text-sunf {
-    flex-direction: column;
-    margin-left: 0px;
-    margin-top: 5px;
-  }
-  .mainindex .sunflower .img-text-sunf img {
+  .mainindex .sunflowers img {
     width: 225px;
   }
-  .mainindex .sunflower .img-text-sunf p {
+  .mainindex .sunflowers .sunftext h3 {
+    font-size: 2rem;
+    margin-left: 0px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  .mainindex .sunflowers .sunftext p {
     font-size: 1rem;
     margin-left: 20px;
     margin-right: 20px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 15px;
   }
   .mainindex .chambre {
-    margin-top: 30px;
+    margin-right: 15px;
+    margin-top: 50px;
   }
-  .mainindex .chambre h3 {
+  .mainindex .chambre .chambtext h3 {
     font-size: 2rem;
-    margin-right: 0px;
+    margin-left: 0px;
     text-align: center;
     margin-top: 5px;
-  }
-  .mainindex .chambre .img-text-chamb {
-    flex-direction: column-reverse;
+    margin-bottom: 10px;
     margin-right: 0px;
-    margin-top: 5px;
-    justify-content: center;
-    align-items: center;
   }
-  .mainindex .chambre .img-text-chamb p {
+  .mainindex .chambre .chambtext p {
     font-size: 1rem;
     margin-left: 20px;
     margin-right: 20px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 15px;
   }
-  .mainindex .chambre .img-text-chamb img {
+  .mainindex .chambre img {
     width: 225px;
   }
   .mainindex .almond {
-    margin-top: 30px;
+    margin-left: 15px;
+    margin-top: 50px;
   }
-  .mainindex .almond h3 {
+  .mainindex .almond img {
+    width: 225px;
+  }
+  .mainindex .almond .almtext h3 {
     font-size: 2rem;
     margin-left: 0px;
     text-align: center;
-  }
-  .mainindex .almond .img-text-alm {
-    flex-direction: column;
-    margin-left: 0px;
     margin-top: 5px;
+    margin-bottom: 10px;
   }
-  .mainindex .almond .img-text-alm img {
-    width: 225px;
-  }
-  .mainindex .almond .img-text-alm p {
+  .mainindex .almond .almtext p {
     font-size: 1rem;
     margin-left: 20px;
     margin-right: 20px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 15px;
   }
   .mainindex .redir {
     font-size: 1.5rem;
@@ -765,19 +759,19 @@ body footer .redes img {
     margin-top: 10px;
   }
   .maingaleria .pinturas-gal {
-    grid-template-columns: repeat(2, 170px);
-    grid-template-rows: repeat(5, 100px);
+    grid-template-columns: repeat(2, 220px);
+    grid-template-rows: repeat(5, 130px);
     margin-left: 15px;
     margin-right: 15px;
     justify-content: center;
     align-items: center;
-    row-gap: 30px;
-    column-gap: 30px;
+    row-gap: 15px;
+    column-gap: 15px;
     margin-top: 15px;
     margin-bottom: 40px;
   }
   .maingaleria .pinturas-gal img {
-    height: 100px;
+    height: 130px;
   }
   /*vvg*/
   .mainvvg .vangogh {
@@ -800,6 +794,287 @@ body footer .redes img {
   }
   .mainvvg .textovvg p {
     font-size: 1rem;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 900px) {
+  .navindex, .bodyquehay .headerquehay, .bodytickets .headertickets, .bodygaleria .headergaleria, .bodyvvg .headervvg {
+    flex-direction: column;
+    padding: 10px 0px;
+    width: 100%;
+  }
+  .navindex nav, .bodyquehay .headerquehay nav, .bodytickets .headertickets nav, .bodygaleria .headergaleria nav, .bodyvvg .headervvg nav {
+    width: 100%;
+  }
+  .navindex nav ul, .bodyquehay .headerquehay nav ul, .bodytickets .headertickets nav ul, .bodygaleria .headergaleria nav ul, .bodyvvg .headervvg nav ul {
+    font-size: 1.5rem;
+    justify-content: space-around;
+    margin-top: 15px;
+  }
+  .navindex .dibujo, .bodyquehay .headerquehay .dibujo, .bodytickets .headertickets .dibujo, .bodygaleria .headergaleria .dibujo, .bodyvvg .headervvg .dibujo {
+    display: none;
+  }
+  .mainindex {
+    /*chambre*/
+    /*almond*/
+  }
+  .mainindex .banner {
+    padding: 150px 0px;
+  }
+  .mainindex .banner h2 {
+    margin-left: 80px;
+    font-size: 3.5rem;
+    margin-right: 80px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .mainindex .banner h1 {
+    font-size: 4rem;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .mainindex .banner .botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .mainindex .banner .botones .visitar {
+    width: 165px;
+    height: 40px;
+    font-size: 2rem;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 10px;
+  }
+  .mainindex .banner .botones .detalles {
+    font-size: 2rem;
+    margin-right: 15px;
+    margin-left: 10px;
+    margin-top: 30px;
+  }
+  .mainindex .imgcarr {
+    display: none;
+  }
+  .mainindex .textcarr {
+    margin-top: 30px;
+    font-size: 2rem;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .mainindex .sunflowers {
+    margin-left: 15px;
+    margin-top: 50px;
+  }
+  .mainindex .sunflowers img {
+    width: 200px;
+  }
+  .mainindex .sunflowers .sunftext h3 {
+    font-size: 2rem;
+    margin-left: 20px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  .mainindex .sunflowers .sunftext p {
+    font-size: 1.5rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    margin-top: 15px;
+  }
+  .mainindex .chambre {
+    margin-right: 15px;
+    margin-top: 50px;
+  }
+  .mainindex .chambre .chambtext h3 {
+    font-size: 2rem;
+    margin-right: 20px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  .mainindex .chambre .chambtext p {
+    font-size: 1.5rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    margin-top: 15px;
+  }
+  .mainindex .chambre img {
+    width: 200px;
+  }
+  .mainindex .almond {
+    margin-left: 15px;
+    margin-top: 50px;
+  }
+  .mainindex .almond img {
+    width: 200px;
+  }
+  .mainindex .almond .almtext h3 {
+    font-size: 2rem;
+    margin-left: 20px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  .mainindex .almond .almtext p {
+    font-size: 1.5rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    margin-top: 15px;
+  }
+  .mainindex .redir {
+    font-size: 1.5rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 100px;
+  }
+  .mainindex .redir .botom {
+    width: 165px;
+    height: 40px;
+    font-size: 2rem;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 80px;
+  }
+  .mainquehay {
+    /*Inspirando al mundo */
+    /*Redirección a galería*/
+  }
+  .mainquehay .pint-dib-let {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .mainquehay .pint-dib-let h2 {
+    font-size: 2rem;
+    margin-top: 30px;
+  }
+  .mainquehay .pint-dib-let p {
+    font-size: 1.5rem;
+    margin-top: 15px;
+  }
+  .mainquehay .pint-dib-let .pinturas {
+    margin-top: 20px;
+  }
+  .mainquehay .pint-dib-let .pinturas .museo, .mainquehay .pint-dib-let .pinturas .museo2, .mainquehay .pint-dib-let .pinturas .museo3 {
+    height: 160px;
+  }
+  .mainquehay .inspirando {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .mainquehay .inspirando h2 {
+    font-size: 2rem;
+    margin-top: 30px;
+  }
+  .mainquehay .inspirando .text-img-insp {
+    align-items: center;
+  }
+  .mainquehay .inspirando .text-img-insp p {
+    font-size: 1.5rem;
+    margin-right: 20px;
+  }
+  .mainquehay .inspirando .text-img-insp img {
+    height: 100px;
+  }
+  .mainquehay .sobre {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .mainquehay .sobre h2 {
+    font-size: 2rem;
+    margin-top: 30px;
+  }
+  .mainquehay .sobre p {
+    font-size: 1.5rem;
+    margin-top: 15px;
+  }
+  .mainquehay .sobre .museoubi img {
+    height: 160px;
+  }
+  .mainquehay .sobre .museoubi iframe {
+    height: 160px;
+    width: 242px;
+  }
+  .mainquehay .redirgaleria {
+    font-size: 1.5rem;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 100px;
+  }
+  .mainquehay .redirgaleria .botong {
+    width: 165px;
+    height: 40px;
+    font-size: 2rem;
+    margin-top: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 80px;
+  }
+  .mainticket .contenido .backg img {
+    width: 60px;
+    margin-left: 50px;
+  }
+  .mainticket .contenido .backg h1 {
+    font-size: 2.3rem;
+    margin-left: 20px;
+  }
+  .mainticket form {
+    padding: 30px;
+  }
+  /*galeria*/
+  .maingaleria .tit-desc {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .maingaleria .tit-desc h2 {
+    font-size: 2rem;
+    margin-top: 30px;
+  }
+  .maingaleria .tit-desc p {
+    font-size: 1.5rem;
+    margin-top: 15px;
+  }
+  .maingaleria .pinturas-gal {
+    grid-template-columns: repeat(3, 250px);
+    grid-template-rows: repeat(4, 157px);
+    margin-left: 15px;
+    margin-right: 15px;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+    column-gap: 30px;
+    margin-top: 15px;
+    margin-bottom: 100px;
+  }
+  .maingaleria .pinturas-gal img {
+    height: 150px;
+  }
+  /*vvg*/
+  .mainvvg .vangogh {
+    padding: 30px 40px;
+  }
+  .mainvvg .textovvg {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 100px;
+  }
+  .footergen {
+    flex-direction: column;
+  }
+  .footergen p {
+    margin-left: 0px;
+  }
+  .footergen .redes {
+    justify-content: center;
+    margin-right: 0px;
+    align-items: center;
+  }
+  .footergen .redes img {
+    margin-left: 0px;
+    width: 40px;
   }
 }
 

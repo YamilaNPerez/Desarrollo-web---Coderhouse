@@ -59,76 +59,73 @@
             margin-left:10px ;
             margin-right: 10px;
         }
-        .sunflower{
-            h3{
-                font-size: 2.0rem;
-                margin-left: 0px;
-                text-align: center;
-                margin-top: -30px
+        .sunflowers{
+            margin-left: 15px;
+            margin-top: 50px;
+            img{
+                width: 225px;
             }
-            .img-text-sunf{
-                flex-direction: column;
-                margin-left: 0px;
-                margin-top: 5px;
-                img{
-                    width: 225px;
-                    
+            .sunftext{
+                h3{
+                    font-size: 2.0rem;
+                    margin-left: 0px;
+                    text-align: center;
+                    margin-top: 5px;
+                    margin-bottom: 10px;
                 }
                 p{
                     font-size: 1.0rem;
                     margin-left: 20px;
                     margin-right: 20px;
                     text-align: center;
-                    margin-top: 10px;
+                    margin-top: 15px;
                 }
             }
         }/*chambre*/
         .chambre{
-            margin-top: 30px;
-            h3{
-                font-size: 2.0rem;
-                margin-right: 0px;
-                text-align: center;
-                margin-top: 5px
-            }
-            .img-text-chamb{
-                flex-direction: column-reverse;
-                margin-right: 0px;
-                margin-top: 5px;
-                justify-content: center;
-                align-items: center;
+            margin-right: 15px;
+            margin-top: 50px;
+            .chambtext{
+                h3{
+                    font-size: 2.0rem;
+                    margin-left: 0px;
+                    text-align: center;
+                    margin-top: 5px;
+                    margin-bottom: 10px;
+                    margin-right: 0px;
+                }
                 p{
                     font-size: 1.0rem;
                     margin-left: 20px;
                     margin-right: 20px;
                     text-align: center;
-                    margin-top: 10px;
+                    margin-top: 15px;
                 }
-                img{
-                    width: 225px;
-                }
+            }
+            img{
+                width: 225px;
             }
         }/*almond*/
         .almond{
-            margin-top: 30px;
-            h3{
-                font-size: 2.0rem;
-                margin-left: 0px;
-                text-align: center;
+            margin-left: 15px;
+            margin-top: 50px;
+            img{
+                width: 225px;
             }
-            .img-text-alm{
-                flex-direction: column;
-                margin-left: 0px;
-                margin-top: 5px;
-                img{
-                    width: 225px;
+            .almtext{
+                h3{
+                    font-size: 2.0rem;
+                    margin-left: 0px;
+                    text-align: center;
+                    margin-top: 5px;
+                    margin-bottom: 10px;
                 }
                 p{
                     font-size: 1.0rem;
                     margin-left: 20px;
                     margin-right: 20px;
                     text-align: center;
-                    margin-top: 10px;
+                    margin-top: 15px;
                 }
             }
         }
@@ -276,18 +273,18 @@
             }
         }
         .pinturas-gal{
-            grid-template-columns: repeat(2, 170px) ;
-            grid-template-rows: repeat(5, 100px);
+            grid-template-columns: repeat(2, 220px) ;
+            grid-template-rows: repeat(5, 130px);
             margin-left: 15px;
             margin-right: 15px;
             justify-content: center;
             align-items: center;
-            row-gap: 30px;
-            column-gap: 30px;
+            row-gap: 15px;
+            column-gap: 15px;
             margin-top: 15px;
             margin-bottom: 40px;
             img{
-                height: 100px;
+                height: 130px;
             }
     
         }
@@ -317,3 +314,309 @@
     }
 
 }
+@media screen and (min-width: 501px) and (max-width:900px){
+    .navindex{
+        flex-direction: column;
+        padding: 10px 0px;
+        width: 100%;
+        nav{
+            width: 100%;
+            ul{
+                font-size: 1.5rem;
+                justify-content: space-around;
+                margin-top: 15px;
+            }
+        }
+        .dibujo{
+            display: none;
+        }
+    }
+    .mainindex{
+        .banner{
+            padding: 150px 0px;
+            h2{
+                margin-left: 80px;
+                font-size: 3.5rem;
+                margin-right: 80px;
+                text-align: center;
+                margin-bottom: 10px;
+            }
+            h1{
+                font-size: 4.0rem;
+                text-align: center;
+                margin-left: 50px;
+                margin-right: 50px;
+            }
+            .botones{
+                @include flex-al (row, center, center);
+                
+                .visitar{
+                    width: 165px;
+                    height: 40px;
+                    font-size: 2.0rem;
+                    margin-top: 30px;
+                    margin-left: 15px;
+                    margin-right: 10px;
+                }
+                .detalles{
+                    font-size: 2.0rem;
+                    margin-right: 15px;
+                    margin-left: 10px;
+                    margin-top: 30px;
+                }
+            }
+    
+        }
+        .imgcarr{
+            display: none;
+        }
+        .textcarr{
+            margin-top: 30px;
+            font-size: 2.0rem;
+            margin-left:40px ;
+            margin-right: 40px;
+        }
+        .sunflowers{
+            margin-left: 15px;
+            margin-top: 50px;
+            img{
+                width: 200px;
+            }
+            .sunftext{
+                h3{
+                    font-size: 2.0rem;
+                    margin-left: 20px;
+                    text-align: center;
+                    margin-top: 5px;
+                    margin-bottom: 10px;
+                }
+                p{
+                    font-size: 1.5rem;
+                    margin-left: 20px;
+                    margin-right: 20px;
+                    text-align: center;
+                    margin-top: 15px;
+                }
+            }
+        }/*chambre*/
+        .chambre{
+            margin-right: 15px;
+            margin-top: 50px;
+            .chambtext{
+                h3{
+                    font-size: 2.0rem;
+                    margin-right: 20px;
+                    text-align: center;
+                    margin-top: 5px;
+                    margin-bottom: 10px;
+                }
+                p{
+                    font-size: 1.5rem;
+                    margin-left: 20px;
+                    margin-right: 20px;
+                    text-align: center;
+                    margin-top: 15px;
+                }
+            }
+            img{
+                width: 200px;
+            }
+        }
+        /*almond*/
+        .almond{
+            margin-left: 15px;
+            margin-top: 50px;
+            img{
+                width: 200px;
+            }
+            .almtext{
+                h3{
+                    font-size: 2.0rem;
+                    margin-left: 20px;
+                    text-align: center;
+                    margin-top: 5px;
+                    margin-bottom: 10px;
+                }
+                p{
+                    font-size: 1.5rem;
+                    margin-left: 20px;
+                    margin-right: 20px;
+                    text-align: center;
+                    margin-top: 15px;
+                }
+            }
+        }
+        .redir{
+            font-size: 1.5rem;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 100px;
+            .botom{
+                width: 165px;
+                height: 40px;
+                font-size: 2.0rem;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-bottom: 80px;
+            }
+        }
+
+    }
+
+    .mainquehay{
+        .pint-dib-let{
+            margin-left: 20px;
+            margin-right: 20px;
+            h2{
+                font-size: 2.0rem;
+                margin-top: 30px;
+            }
+            p{
+                font-size: 1.5rem;
+                margin-top: 15px;
+            }
+            .pinturas{
+                margin-top: 20px;
+                .museo, .museo2, .museo3{
+                    height: 160px;
+                }
+            }
+        }
+        /*Inspirando al mundo */
+        .inspirando{
+            margin-left: 20px;
+            margin-right: 20px;
+            h2{
+                font-size: 2.0rem;
+                margin-top: 30px;
+            }
+            .text-img-insp{
+                align-items: center;
+                p{
+                    font-size: 1.5rem;
+                    margin-right: 20px
+                }
+                img{
+                    height: 100px;
+                }
+            }
+        }
+        .sobre{
+            margin-left: 20px;
+            margin-right: 20px;
+            h2{
+                font-size: 2.0rem;
+                margin-top: 30px;
+            }
+            p{
+                font-size: 1.5rem;
+                margin-top: 15px;
+            }
+            .museoubi{
+                img{
+                    height: 160px;
+                }
+                iframe{
+                    height: 160px;
+                    width: 242px;
+                }
+            }
+        }
+        /*Redirección a galería*/
+        .redirgaleria{
+            font-size: 1.5rem;
+            margin-left: 40px;
+            margin-right: 40px;
+            margin-top: 100px;
+            .botong{
+                width: 165px;
+                height: 40px;
+                font-size: 2.0rem;
+                margin-top: 15px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-bottom: 80px;
+            }
+        }
+    }
+    .mainticket{
+        .contenido{
+            .backg{
+                
+                img{
+                    width: 60px;
+                    margin-left: 50px;
+                }
+                h1{
+                    font-size: 2.3rem;
+                    margin-left: 20px;
+                }
+            }
+        }
+        form{
+            padding: 30px;
+        }
+    }
+    /*galeria*/
+    .maingaleria{
+        .tit-desc{
+            margin-left: 20px;
+            margin-right: 20px;
+            h2{
+                font-size: 2.0rem;
+                margin-top: 30px;
+            }
+            p{
+                font-size: 1.5rem;
+                margin-top: 15px;
+            }
+            
+        }
+        .pinturas-gal{
+            grid-template-columns: repeat(3, 250px) ;
+            grid-template-rows: repeat(4, 157px);
+            margin-left: 15px;
+            margin-right: 15px;
+            justify-content: center;
+            align-items: center;
+            row-gap: 30px;
+            column-gap: 30px;
+            margin-top: 15px;
+            margin-bottom: 100px;
+            img{
+                height: 150px;
+            }
+    
+        }
+
+    }
+    /*vvg*/
+    .mainvvg{
+        .vangogh{
+            padding: 30px 40px;
+        }
+        .textovvg{
+            margin-left: 40px;
+            margin-right: 40px;
+            margin-bottom: 100px;
+        }
+        
+        
+    }
+    .footergen{
+        flex-direction: column;
+        p{
+            margin-left: 0px;
+        }
+        .redes{
+            justify-content:center;
+            margin-right: 0px;
+            align-items: center;
+            img{
+                margin-left: 0px;
+                width: 40px;
+            }
+        }
+    }
+}
+
